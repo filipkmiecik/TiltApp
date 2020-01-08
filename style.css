@@ -1,0 +1,29 @@
+#gameArea {
+    position:fixed;
+    top:0;
+    left:0;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+}
+
+.interactiveHole {
+    position: relative;
+    width:150px;
+    height:150px;
+    top:500px;
+    left:1000px;
+    background: rgb(189, 189, 189);
+    border-radius: 50%;
+}
+
+#interactiveBall {
+    position: relative;
+    width:150px;
+    height:150px;
+    top:300px;
+    left:300px;
+    background: #fff;
+    border-radius: 50%;   
+}
